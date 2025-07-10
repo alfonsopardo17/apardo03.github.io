@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Music chart</title>
+    <style>
+      body{
+background-color: #030bfh;
+      }
+    </style>
+    <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <center>
+      <h1>a chart of 3 random song by bands I like</h1>
+      <div id="plot"></div>
+      <script>
+        let songs = ["In The End", "Animal I Have Become", "it's Not A Fashion Statemnt, its a Deathwish"];
+        let viewes = [2056164621, 286153693, 11055964];
+        let trace = {
+         x: songs,
+         y: views,
+          type: "bar"
+        };
+        let data = [trace];
+        Plotly.newPlot("plot", data);
+      </script>
+      <p>
+        <a href="index.html">Click here to go back to the home page</a>
+      </p>
+    </center>
+    <footer>
+      <center>
+        <hr>
+        <p>
+          <i>Alfonso's Website &copy; 2025</i>
+        </p>
+      </center>
+    </footer>
+  </body>
+</html>

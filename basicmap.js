@@ -11,7 +11,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 let centralMarker = L.marker([35.2176665, -80.831473], {title: "CPCC Central Campus"}).addTo(map);
-let levineMarker = L.marker([ 35.11, -80.69], {title: "CPCC Levine Campus Location"}).addTo(map);
+let levineMarker = L.marker([ 35.106105299999996, -80.69308509999999], {title: "CPCC Levine Campus Location"}).addTo(map);
 let catoMarker = L.marker([35.2658627, -80.73116], {title: "CPCC CATO Campus"}).addTo(map);
 let harperMarker = L.marker([35.12, -80.93], {title: "CPCC Harper Campus"}).addTo(map);
 let harrisMarker = L.marker([35.22, -80.92], {title: "CPCC Harris Campus"}).addTo(map);

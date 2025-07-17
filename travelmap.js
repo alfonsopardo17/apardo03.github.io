@@ -18,5 +18,5 @@ let circleMarker01 = L.circle(coordinates, {
   radius: 100
 }).bindPopup(`<center>
              <h3>Hello from Madrid, Spain</h3>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/e6gRU8RSqnc?si=HNdt7BVjG9spNlpZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="200" height="100" src="https://www.youtube.com/embed/e6gRU8RSqnc?si=HNdt7BVjG9spNlpZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
              </center>`).addTo(map);
